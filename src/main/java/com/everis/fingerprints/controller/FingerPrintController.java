@@ -21,7 +21,7 @@ public class FingerPrintController {
   @ApiOperation(value = "Valid persona por huella", response = FingerPrintResponse.class)
   @ApiResponse(code = 200, message = "api ok", response = FingerPrintResponse.class)
   @PostMapping("/validate")
-  public Single<FingerPrintResponse> validate(@RequestBody FingerPrint request) {
+  public Single<FingerPrintResponse> FingerPrintValidate(@RequestBody FingerPrint request) {
     return Single.just(new FingerPrintResponse("Core", true));
   }
 }

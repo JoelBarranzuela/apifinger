@@ -1,0 +1,5 @@
+com\everis\fingerprints\controller\FingerPrintController.class
+com\everis\fingerprints\entity\FingerPrintResponse.class
+com\everis\fingerprints\entity\FingerPrint.class
+com\everis\fingerprints\config\SwaggerConfig.class
+com\everis\fingerprints\FingerprintsApplication.class
